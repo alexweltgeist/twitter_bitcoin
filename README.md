@@ -7,6 +7,8 @@ The Spark Streaming app consist of 3 parts:
 * The consumer notebook uses the spark streaming context to process the messages, apply sentiment, language detection and the bitcoin price and to store the relevant aggregated and windowed data in a parquet file: **Twitter_Project_Consumer_v12.ipynb**
 * The displayer notebook uses Koala to consume and normalize the prepared data and to display it in a graph: **Twitter_Project_Displayer_v03.ipynb** 
 
-Additionally we trained an own CNN as an alternative to the Textblob sentiment analysis. This also consist of 3 parts:
-* The code to produce training data (configured for batches of 10'000): ** ** 
+Additionally we trained an own CNN as an alternative to the Textblob sentiment analysis. This exercise is done on Google Colab and also consist of 3 parts:
+* The first part contains the code to produce training data based on Textplob Sentiment: **Create_Trainingset_v03.ipynb** 
+* The second file is the training set with the labled Tweets: **all_tweets_with_lable_final.csv**
+* And the third part finally contains the CNN model and the evalutaion thereof: **Sentiment_Analysis_with_CNN_v05.ipynb**
 
