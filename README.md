@@ -12,7 +12,8 @@ Additionally we trained an own CNN as an alternative to the Textblob sentiment a
 * The second file is the training set with the labled Tweets: [**all_tweets_with_lable_final.csv**](https://github.com/alexweltgeist/twitter_bitcoin/blob/main/all_tweets_with_lable_final.csv)
 * And the third part finally contains the CNN model and the evaluation thereof: [**Sentiment_Analysis_with_CNN_v04.ipynb**](https://github.com/alexweltgeist/twitter_bitcoin/blob/main/Sentiment_Analysis_with_CNN_v04.ipynb)
 
-Note: there are still things not working as desired. 
+
+*Note: there are still things not working as desired:
 * Saving the stream of aggregated windows in parquet is still an issue
 * the bitcoint price only updates continuously when not using aggregated windows
 * CNN performance is still biased (many false negatives), the version [**Sentiment_Analysis_with_CNN_v05.ipynb**](https://github.com/alexweltgeist/twitter_bitcoin/blob/main/Sentiment_Analysis_with_CNN_v05.ipynbx) is adding more training data but still needs more adjustments (do not use, yet!)
