@@ -1,9 +1,6 @@
 # twitter_bitcoin
 
-ZHAW Project to analyse whether we can display a connection between twitter sentiments on bitcoint tweets with the bitcoin price. For that an app was built on the Databricks environement (Community Edition) using Spark Streaming. Description of the overall project can be found in the powerpoint presentation: **BitcoinPreisundTweets_v03.pptx**
-
-http://github.com - automatic!
-[GitHub](http://github.com)
+ZHAW Project to analyse whether we can display a connection between twitter sentiments on bitcoint tweets with the bitcoin price. For that an app was built on the Databricks environement (Community Edition) using Spark Streaming. Description of the overall project can be found in the powerpoint presentation: [**BitcoinPreisundTweets_v03.pptx**]  (https://github.com/alexweltgeist/twitter_bitcoin/blob/main/BitcoinPreisundTweets_v03.pptx)
 
 The Spark Streaming app consist of 3 parts:
 * The producer notebook uses a Twitter API to stream messages onto a TCP IP socket: **Twitter_Project_Producer_v06.ipynb**
