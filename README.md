@@ -1,6 +1,6 @@
 # twitter_bitcoin
 
-ZHAW Project to analyse whether we can display a connection between twitter sentiments on bitcoint tweets with the bitcoin price. For that an app was built on the Databricks environement (Community Edition) using Spark Streaming. Description of the overall project can be found in the powerpoint presentation: [**BitcoinPreisundTweets_v03.pptx**](https://github.com/alexweltgeist/twitter_bitcoin/blob/main/BitcoinPreisundTweets_v03.pptx)
+ZHAW Project to analyse whether we can display a connection between twitter sentiments on bitcoin tweets with the bitcoin price. For that an app was built on the Databricks environement (Community Edition) using Spark Streaming. Description of the overall project can be found in the powerpoint presentation: [**BitcoinPreisundTweets_v03.pptx**](https://github.com/alexweltgeist/twitter_bitcoin/blob/main/BitcoinPreisundTweets_v03.pptx)
 
 The Spark Streaming app consist of 3 parts:
 * The producer notebook uses a Twitter API to stream messages onto a TCP IP socket: [**Twitter_Project_Producer_v06.ipynb**](https://github.com/alexweltgeist/twitter_bitcoin/blob/main/Twitter_Project_Producer_v06.ipynb)
@@ -15,6 +15,6 @@ Additionally we trained an own CNN as an alternative to the Textblob sentiment a
 
 *Note: there are still things not working as desired:*
 * Saving the stream of aggregated windows in parquet is still an issue
-* the bitcoint price only updates continuously when not using aggregated windows
+* the bitcoin price only updates continuously when not using aggregated windows
 * CNN performance is still biased (many false negatives), the version [**Sentiment_Analysis_with_CNN_v05.ipynb**](https://github.com/alexweltgeist/twitter_bitcoin/blob/main/Sentiment_Analysis_with_CNN_v05.ipynbx) is adding more training data but still needs more adjustments (do not use, yet!)
 
