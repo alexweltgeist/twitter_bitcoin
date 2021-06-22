@@ -8,7 +8,7 @@ The Spark Streaming app consist of 3 parts:
 * The displayer notebook uses Koala to consume and normalize the prepared data and to display it in a graph: [**Twitter_Project_Displayer_v03.ipynb**](https://github.com/alexweltgeist/twitter_bitcoin/blob/main/Twitter_Project_Displayer_v03.ipynb)
 
 Additionally we trained an own CNN as an alternative to the Textblob sentiment analysis. This exercise is done on Google Colab and also consist of 3 parts:
-* The first part contains the code to produce training data based on Textplob Sentiment: [**Create_Trainingset_v03.ipynb**](https://github.com/alexweltgeist/twitter_bitcoin/blob/main/Create_Trainingset_v03.ipynb) 
+* The first part contains the code to produce training data based on Textblob Sentiment: [**Create_Trainingset_v03.ipynb**](https://github.com/alexweltgeist/twitter_bitcoin/blob/main/Create_Trainingset_v03.ipynb) 
 * The second file is the training set with the labled Tweets: [**all_tweets_with_lable_final.csv**](https://github.com/alexweltgeist/twitter_bitcoin/blob/main/all_tweets_with_lable_final.csv)
 * And the third part finally contains the CNN model and the evaluation thereof: [**Sentiment_Analysis_with_CNN_v04.ipynb**](https://github.com/alexweltgeist/twitter_bitcoin/blob/main/Sentiment_Analysis_with_CNN_v04.ipynb)
 
